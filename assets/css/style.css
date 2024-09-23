@@ -33,13 +33,7 @@ input[type="number"] {
     font-weight: bold;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-}
+
 .container {
     background-color: white;
     padding: 20px;
@@ -61,4 +55,9 @@ button {
 #resultado {
     margin-top: 10px;
     font-weight: bold;
+}
+
+.indexhtml{
+    display: flexbox;
+    justify-content: center;
 }
