@@ -1,0 +1,11 @@
+/* Estilo base para la imagen */
+img {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Clase que aplicará el borde rojo */
+.borde-rojo {
+    border: 2px solid red;
+}
