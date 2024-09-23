@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pedido de Stickers</title>
+</head>
+<body>
+
+    <h1>Selecciona tus stickers</h1>
+
+    <!-- Stickers disponibles -->
+    <div class="sticker">
+        <img src="assets/img/stickercss.webp" alt="Sticker 1">
+        <p>Cantidad: <input type="number" id="sticker1" value="0" min="0" max="10"></p>
+    </div>
+
+    <div class="sticker">
+        <img src="assets/img/stickethtml.png" alt="Sticker 2">
+        <p>Cantidad: <input type="number" id="sticker2" value="0" min="0" max="10"></p>
+    </div>
+
+    <div class="sticker">
+        <img src="assets/img/sticketjs.png" alt="Sticker 3">
+        <p>Cantidad: <input type="number" id="sticker3" value="0" min="0" max="10"></p>
+    </div>
+
+    <!-- Botón para calcular el total -->
+    <div>
+        <button onclick="calcularStickers()">Calcular Total</button>
+    </div>
+
+    <!-- Mensaje de resultado -->
+    <p class="resultado" id="resultado"></p>
+</body>
+</html>
+<script src="assets/js/js.js"></script>

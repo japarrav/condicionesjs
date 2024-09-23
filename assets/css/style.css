@@ -9,3 +9,26 @@ img {
 .borde-rojo {
     border: 2px solid red;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+.sticker {
+    display: inline-block;
+    margin: 20px;
+}
+.sticker img {
+    width: 150px;
+    height: auto;
+}
+input[type="number"] {
+    width: 40px;
+    text-align: center;
+}
+.resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
