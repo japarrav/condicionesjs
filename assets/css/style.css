@@ -32,3 +32,33 @@ input[type="number"] {
     font-size: 1.2em;
     font-weight: bold;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+select {
+    margin: 5px;
+    padding: 5px;
+}
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#resultado {
+    margin-top: 10px;
+    font-weight: bold;
+}
